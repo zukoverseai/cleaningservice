@@ -1,0 +1,20 @@
+name: Mirror to Zukoverse Repo
+on:
+  push:
+    branches:
+      - main
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Push to mirror repository
+        env:
+          MIRROR_TOKEN: ${{ secrets.ZUKOVERSE_PAT }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git remote add mirror https://x-access-token:${MIRROR_TOKEN}@github.com/zukoverse.ai/cleaning-service.git
+          git push mirror HEAD:main --force
