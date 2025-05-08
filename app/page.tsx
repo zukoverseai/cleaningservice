@@ -98,38 +98,38 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 justify-items-center">
               <div className="space-y-4 max-w-sm">
                 <img
-                  src="/party.jpg"
-                  alt="Party Pre/Post Cleaning"
+                  src="/residential-cleaning.jpg"
+                  alt="Residential Cleaning"
                   className="mx-auto h-64 w-full object-cover rounded-lg"
                 />
-                <h3 className="text-xl font-semibold">
-                  Party Pre/Post Cleaning
-                </h3>
+                <h3 className="text-xl font-semibold">Residential Cleaning</h3>
                 <p className="text-center text-gray-500">
-                  For clients who need a helping hand hosting.
+                  Keep your home spotless with our thorough residential cleaning
+                  services.
                 </p>
               </div>
               <div className="space-y-4 max-w-sm">
                 <img
-                  src="/construction.jpg"
-                  alt="Post Construction Cleaning"
+                  src="/move-in-move-out.jpg"
+                  alt="Move-In / Move-Out Cleaning"
                   className="mx-auto h-64 w-full object-cover rounded-lg"
                 />
-                <h3 className="text-xl font-semibold">Post Construction</h3>
+                <h3 className="text-xl font-semibold">Move-In / Move-Out</h3>
                 <p className="text-center text-gray-500">
-                  For homes recently renovated or undergoing construction.
+                  Ensure a fresh start with our move-in and move-out cleaning
+                  services, leaving your space pristine for new occupants.
                 </p>
               </div>
               <div className="space-y-4 max-w-sm">
                 <img
-                  src="/airbnb.jpg"
-                  alt="Airbnb Cleaning"
+                  src="/post-construction.jpg"
+                  alt="Post-Construction Cleaning"
                   className="mx-auto h-64 w-full object-cover rounded-lg"
                 />
-                <h3 className="text-xl font-semibold">Airbnb</h3>
+                <h3 className="text-xl font-semibold">Post-Construction</h3>
                 <p className="text-center text-gray-500">
-                  Keep your Airbnb spotless and guest-ready for back-to-back
-                  bookings.
+                  Remove construction dust and debris with our specialized
+                  post-construction cleaning services.
                 </p>
               </div>
             </div>
@@ -479,33 +479,6 @@ export default function Home() {
                       className="text-primary transition-transform duration-200 ease-in-out hover:scale-110"
                     >
                       <FaInstagram className="h-6 w-6" />
-                    </a>
-                    <a
-                      href="https://x.com/withlovecleanings"
-                      aria-label="X"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-primary transition-transform duration-200 ease-in-out hover:scale-110"
-                    >
-                      <SiX className="h-6 w-6" />
-                    </a>
-                    <a
-                      href="https://linkedin.com/in/withlovecleaningservices"
-                      aria-label="LinkedIn"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-primary transition-transform duration-200 ease-in-out hover:scale-110"
-                    >
-                      <FaLinkedinIn className="h-6 w-6" />
-                    </a>
-                    <a
-                      href="https://wa.me/16136701015"
-                      aria-label="WhatsApp"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-primary transition-transform duration-200 ease-in-out hover:scale-110"
-                    >
-                      <FaWhatsapp className="h-6 w-6" />
                     </a>
                   </div>
                 </div>
