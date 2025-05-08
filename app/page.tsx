@@ -150,7 +150,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* About Section */}
+        {/* About Section :) */}
         <section
           id="about"
           className="w-full py-12 md:py-24 lg:py-32 bg-gray-50"
