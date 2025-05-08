@@ -1,5 +1,6 @@
 @tailwind base;
 @tailwind components;
+@import "react-phone-input-2/lib/style.css";
 @tailwind utilities;
 
 body {
