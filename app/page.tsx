@@ -8,12 +8,7 @@ import {
   Check,
   ArrowRight,
 } from "lucide-react";
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
-  FaWhatsapp,
-} from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { SiX } from "react-icons/si";
 import { Button } from "@/components/ui/button";
 import { ContactForm } from "@/components/ContactForm";
@@ -27,11 +22,11 @@ export default function Home() {
         <div className="container flex h-16 items-center justify-between px-4 md:px-6">
           <Link href="/" className="flex items-center gap-2 font-bold text-xl">
             <img
-              src="/wlc-house.svg"
-              alt="With Love Cleaning Services logo"
+              src="/just-logo.png"
+              alt="Zoftware Development Services logo"
               className="h-6 w-6"
             />
-            <span>With Love Cleaning</span>
+            <span>Zoftware Development</span>
           </Link>
           <nav className="hidden md:flex gap-6">
             <Link
@@ -210,10 +205,10 @@ export default function Home() {
                   </li>
                 </ul>
                 <p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  As a single mom of two, I started With Love Cleaning Services
-                  to be the support I wished I had; and now every booking not
-                  only brings you a sparkling home but helps me build a brighter
-                  future for my children.
+                  At Zoftware Development, our mission is to deliver
+                  exceptional, reliable, and eco-friendly cleaning with
+                  meticulous attention to every detail, ensuring your home feels
+                  truly refreshed.
                 </p>
                 <div className="mt-6 flex justify-center gap-4">
                   <Link
@@ -271,17 +266,14 @@ export default function Home() {
                     ))}
                   </div>
                   <p className="text-gray-500">
-                    Ashley is the best cleaner I've ever had. She is very
-                    thorough and will tackle any job I request. I would highly
-                    recommend her to anyone who wants a spotless home cleaned
-                    with love and care!
+                    Zoftware Development completely transformed our home before
+                    a big family gathering. The team was punctual, professional,
+                    and left every corner sparkling. We couldn't be happier!
                   </p>
                 </div>
                 <div>
-                  <p className="font-semibold">Carolyn Fyffe-Heagle</p>
-                  <p className="text-sm text-gray-500">
-                    Residential Cleaning Client
-                  </p>
+                  <p className="font-semibold">Emily Johnson</p>
+                  <p className="text-sm text-gray-500">Residential Client</p>
                 </div>
               </div>
               {/* Testimonial 2 */}
@@ -307,18 +299,14 @@ export default function Home() {
                     ))}
                   </div>
                   <p className="text-gray-500">
-                    Ashley arrived at my home and after a quick walk through and
-                    discussion confirming what we had discussed, she tackled my
-                    home with care and great efficiency. I asked for the
-                    interior fridge add-on and it didn't disappoint. I look
-                    forward to the next clean!
+                    I booked the deep clean package for my condo, and the
+                    results exceeded my expectations. Every surface gleams, and
+                    the team was friendly and detail-oriented.
                   </p>
                 </div>
                 <div>
-                  <p className="font-semibold">Kathy Sigmund</p>
-                  <p className="text-sm text-gray-500">
-                    Residential Cleaning Client
-                  </p>
+                  <p className="font-semibold">Michael Lee</p>
+                  <p className="text-sm text-gray-500">Condo Owner</p>
                 </div>
               </div>
               {/* Testimonial 3 */}
@@ -344,19 +332,14 @@ export default function Home() {
                     ))}
                   </div>
                   <p className="text-gray-500">
-                    I would highly recommend Ashley to all my closest friends.
-                    She brings professional, thorough and detailed cleaning
-                    services. She always communicates on what she is doing and
-                    what she would suggest as our needs change from week to
-                    week. Bonus is she loves pets, my dogs and cats look forward
-                    to each and every visit!
+                    The move-out cleaning saved me so much stress during my
+                    relocation. They handled everything, from inside cabinets to
+                    window sills, and I got my full deposit back!
                   </p>
                 </div>
                 <div>
-                  <p className="font-semibold">Barb Holgate</p>
-                  <p className="text-sm text-gray-500">
-                    Residential Cleaning Client
-                  </p>
+                  <p className="font-semibold">Sophia Martinez</p>
+                  <p className="text-sm text-gray-500">Tenant</p>
                 </div>
               </div>
               {/* Testimonial 4 */}
@@ -382,18 +365,14 @@ export default function Home() {
                     ))}
                   </div>
                   <p className="text-gray-500">
-                    We used Ashley's services for a complete cleaning of our
-                    office space! Easy to contact and fast service! The cleaning
-                    was carried out down to the smallest detail. We will
-                    definitely use their services again!! We recommend them
-                    without hesitation!!
+                    Our small office in downtown Ottawa looks brand new after
+                    the post-construction package. Quick, efficient service and
+                    a dust-free environment!
                   </p>
                 </div>
                 <div>
-                  <p className="font-semibold">Trinic Toitures Inc.</p>
-                  <p className="text-sm text-gray-500">
-                    Commercial Cleaning Client
-                  </p>
+                  <p className="font-semibold">Carter Nguyen</p>
+                  <p className="text-sm text-gray-500">Commercial Client</p>
                 </div>
               </div>
             </div>
@@ -412,7 +391,7 @@ export default function Home() {
                   Get in Touch
                 </h2>
                 <p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Ready to experience the WithLoveCleaning difference? Contact
+                  Ready to experience the ZD Cleaning difference? Contact
                   us today for a free quote.
                 </p>
                 <div className="space-y-4">
@@ -420,7 +399,7 @@ export default function Home() {
                     <Phone className="h-6 w-6 text-primary" />
                     <div>
                       <h3 className="font-bold">Phone</h3>
-                      <p className="text-sm text-gray-500">(613) 670-1015</p>
+                      <p className="text-sm text-gray-500">+1 (613) 882-1225</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
@@ -428,10 +407,10 @@ export default function Home() {
                     <div>
                       <h3 className="font-bold">Email</h3>
                       <a
-                        href="mailto:wlcottawa@gmail.com"
+                        href="mailto:zoftwaredevelopment@yahoo.com"
                         className="text-sm text-gray-500 hover:text-primary hover:underline"
                       >
-                        wlcottawa@gmail.com
+                        zoftwaredevelopment@yahoo.com
                       </a>
                     </div>
                   </div>
@@ -445,7 +424,7 @@ export default function Home() {
                         rel="noopener noreferrer"
                         className="text-sm text-gray-500 hover:text-primary hover:underline"
                       >
-                        Ottawa, ON, Canada
+                        Toronto, ON (remote work accepted!)
                       </a>
                     </div>
                   </div>
@@ -454,16 +433,13 @@ export default function Home() {
                     <div>
                       <h3 className="font-bold">Hours</h3>
                       <p className="text-sm text-gray-500">
-                        Monday - Friday: 8:30am - 4:30pm
-                      </p>
-                      <p className="text-sm text-gray-500">
-                        Saturday/Sunday: Closed
+                        Monday - Sunday: 9am - 6pm
                       </p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4 pt-4">
                     <a
-                      href="https://www.facebook.com/profile.php?id=61571527177820"
+                      href="https://www.facebook.com/zoftwaredevelopment"
                       aria-label="Facebook"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -472,7 +448,7 @@ export default function Home() {
                       <FaFacebookF className="h-6 w-6" />
                     </a>
                     <a
-                      href="https://www.instagram.com/withlovecleaningservices/"
+                      href="https://www.instagram.com/zoftwaredevelopment/"
                       aria-label="Instagram"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -497,11 +473,11 @@ export default function Home() {
         <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row px-4 md:px-6">
           <div className="flex items-center gap-2 text-sm">
             <img
-              src="/wlc-house.svg"
-              alt="With Love Cleaning Services logo"
+              src="/just-logo.png"
+              alt="Zoftware Development Services logo"
               className="h-5 w-5"
             />
-            <p>© 2025 With Love Cleaning Services. All rights reserved.</p>
+            <p>© 2025 Zoftware Development Services. All rights reserved.</p>
           </div>
           <nav className="flex gap-4 sm:gap-6">
             <Link

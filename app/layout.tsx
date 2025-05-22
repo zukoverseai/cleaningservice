@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "With Love Cleaning Services",
+  title: "Zoftware Development Services",
   description: "Cleaning with care and compassion.",
   generator: "v0.dev",
   icons: {
