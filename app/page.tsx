@@ -153,7 +153,7 @@ export default function Home() {
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
               <img
-                src="/Ashley.jpg"
+                src="/logo.png"
                 alt="Our cleaning team"
                 className="mx-auto w-full max-w-[600px] h-auto rounded-xl object-cover object-center"
               />
@@ -391,8 +391,8 @@ export default function Home() {
                   Get in Touch
                 </h2>
                 <p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Ready to experience the ZD Cleaning difference? Contact
-                  us today for a free quote.
+                  Ready to experience the ZD Cleaning difference? Contact us
+                  today for a free quote.
                 </p>
                 <div className="space-y-4">
                   <div className="flex items-start gap-4">
